@@ -1,38 +1,435 @@
 .App {
-  text-align: center;
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.Nav{
+  background-color: #121215;
+  width: 100%;
+  height: 12vh;
+  margin-top: -2.5vh;
+ 
+}
+.Nav > a{
+  text-decoration: none;
+}
+.lg{
+  opacity: 0.7;
+  top: 1vh;
+  left:4vh;
+  height: 7vh;
+  width: 7vh;
+  
+ 
+  color:  #707070;
+  position: absolute;
+
+  animation-name: l;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  
+}
+@keyframes l {
+  from {left:0vh;}
+  to {left:4vh;}
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navw{
+  opacity: 0.5;
+  top: 0.2vh;
+  right:10vh;
+  rotate: 0deg;
+  height: 4vh;
+  width: 12vh;
+  font-size: 2.2vh;
+  color:  #707070;
+  padding-top: 1vh;
+ 
+  position: absolute;
+  animation-name: nw;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  
+}
+@keyframes nw {
+  from { right:0vh;}
+  to { right:10vh;}
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navw:hover{
+  opacity: 1;
+ 
+  
+}
+.Navc{
+  opacity: 0.5;
+  top: 0.2vh;
+  right:0vh;
+  rotate: 0deg;
+  height: 4vh;
+  width: 12vh;
+  font-size: 2.2vh;
+  color:  #707070;
+  padding-top: 1vh;
+  position: absolute;
+  animation-name: nc;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  
+}
+@keyframes nc {
+  from { right:-10vh;}
+  to { right:0vh;}
+}
+.Navc:hover{
+  opacity: 1;
+  
+}
+.About {
+  height: 80vh;
+  width: 100%;
+  background-color:#1F1F22;
+  color: #707070;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Name{
+
+  font-size: 10vh;
+  margin-left: 10vw;
+  padding-top: 5%;
+  animation-name: n;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+}
+.Surname{
+  font-size: 10vh;
+  margin-left: 13vw;
+  animation-name: s;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  animation-delay: 0.1s;
+}
+.Ab{
+  font-size: 3vh;
+  width: 40%;
+  height: fit-content;
+  padding-top: 2%;
+  margin-left: 13vw;
+  animation-name: ab;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  animation-delay: 0.2s;
+
+}
+@keyframes n {
+  from {margin-left: -150vw;}
+  to {margin-left: 10vw;}
+
+}
+@keyframes s {
+  from {margin-left: -150vw;}
+  to {margin-left: 13vw;}
+
+}
+@keyframes ab {
+  from {margin-left: -150vw;}
+  to {margin-left: 13vw;}
+
+}
+.image{
+  height: 60vh;
+  width: 45vh;
+  margin-left: 65vw;
+  margin-top: -55vh;
+  animation-name: img;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+  
+ 
+}
+@keyframes img {
+  from {margin-left: 150vw;}
+  to {margin-left: 65vw;}
+
+}
+.imgbg{
+  
+  height: 60vh;
+  width: 45vh;
+  margin-left: 63vw;
+  margin-top: -50vh;
+  background:#121215;
+  animation-name: imgb;
+  animation-duration: 1s;
+  animation-timing-function:ease;
+}
+@keyframes imgb {
+  from {margin-top: -110vh;}
+  to {margin-top: -50vh;}
+
+}
+.Work{
+  height: fit-content;
+  width: 100%;
+  background-color: #121215;
+  padding-bottom: 10vh;
+ 
+
+}
+.Bar{
+  height: 1px;
+  width: 80%;
+  margin-left: 10%;
+  background:#707070;
+
+}
+
+.w{
+  color: #707070;
+  padding-top: 6%;
+  margin-left: 13vw;
+  font-size: 5vh;
+}
+.box{
+  height: fit-content;
+  width: fit-content;
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: left;
+}
+.N{
+  color: #707070;
+  padding: 2%;
+  
+  margin-left: 13vw;
+  font-size: 4vh;
+  
+  display: flex;
+  
+}
+.Wdisplay{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+ height: fit-content;
+ width: fit-content;
+ padding-left: 10vh;
+
+}
+.Wdisplay > a{
+  text-decoration: none;
+}
+
+.Skills{
+  height: 90vh;
+  width: 100%;
+  background-color:#1F1F22;
+  color: #707070;
+  padding-top: 10%;
+  
+}
+.SBar{
+  height: 1px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background:#707070;
+}
+.Lists{
+  height: 80%;
+  width: 80%;
+  background: #121215;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Ldis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.s{
+  color: #707070;
+  padding-top: 6%;
+  margin-left: 5vw;
+  font-size: 5vh;
+}
+
+.Footer {
+  height: 50vh;
+  width: 100%;
+  background-color: #121215;
+  color: #707070;
+  
+}
+.Icons{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 1vh;
+  height: 6vh;
+}
+.Iconsm{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+  height: 6vh;
+  
+}
+.Iconsm > a {
+  text-decoration: none;
+}
+.Mail{
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  width: fit-content;
+  height: 4vh;
+  font-size: 2vh;
+  color: #202020;
+  cursor: pointer;
+  background-color: #707070;
+  border-radius: 2px 2px 2px 2px;
+  min-width: fit-content;
+  
+}
+.Mail:hover{
+  opacity: 0.9;
+  margin-top: 0.7vh;
+  background-color:rgba(61, 61, 61, 0.897);
+  color: aliceblue;
+}
+.imgicon {
+  height: 5vh;
+  width: 5vh;
+  padding: 2vh;
+  cursor: pointer;
+}
+.imgicon:hover{
+  height: 6vh;
+  width: 6vh;
+  background-color: rgba(148, 148, 148, 0.034);
 }
 
-.App-link {
-  color: #61dafb;
-}
+.Footer > p{
+  margin-right: 12vw;
+  
+  font-size: 2vh;
+  color: #707070;
+  text-align: right;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+@media (max-width: 768px) {
+  .About {
+    display: block;
+    height: 86vh;
+    width: 100%;
+    background-color:#1F1F22;
+    color: #707070;
+    
   }
-  to {
-    transform: rotate(360deg);
+  
+  .Name{
+
+    font-size: 8vh;
+    margin-left: 5vw;
+    padding-top: 0%;
+    width: fit-content;
+    animation-name: n;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+   
+  }
+  .Surname{
+    font-size: 8vh;
+    margin-left: 5vw;
+  
+    width: fit-content;
+    animation-name: s;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    animation-delay: 0.1s;
+  }
+  .Ab{
+    font-size: 3vh;
+    width: 80%;
+    height: fit-content;
+    padding-top: 2%;
+    margin-left: 13vw;
+    animation-name: ab;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    animation-delay: 0.2s;
+  
+  }
+  @keyframes n {
+    from {margin-left: -150vw;}
+    to {margin-left: 5vw;}
+  
+  }
+  @keyframes s {
+    from {margin-left: -150vw;}
+    to {margin-left: 5vw;}
+  
+  }
+  @keyframes ab {
+    from {margin-left: -150vw;}
+    to {margin-left: 13vw;}
+  
+  }
+  .image{
+    height: 35vh;
+    width: 25vh;
+    margin-left: 23vw;
+    margin-top: -18vh;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    
+   
+  }
+  @keyframes img {
+    from {margin-left: 0vw; margin-top: 0vh;}
+    to {margin-left: 23vw; margin-top: -18vh;}
+  
+  }
+  .imgbg{
+    
+    height: 65vh;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: -45vh;
+    background:#121215;
+  }
+  @keyframes imgb {
+    from {margin-top: -110vh;margin-top: -150vh;}
+    to {margin-top: 60vh;margin-top: -45vh;}
+  
+  }
+  .Wdisplay{
+    display:block;
+    
+   height: fit-content;
+   width: fit-content;
+  }
+  .Ldis{
+    display: block;
+    
+    
+  }
+  .Skills{
+    height: fit-content;
+    padding-bottom: 5vh;
+
+    
+  }
+  .Footer {
+    height: fit-content;
+    padding-bottom: 1vh;
+   
+    
   }
 }

@@ -1,0 +1,96 @@
+.Card{
+    height: fit-content;
+    width: 55vh;
+    background: #3a393970;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 25vh;
+    cursor: pointer;
+
+}
+.Card:hover{
+    width: 55vh;
+    background: #3a39398e;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 25vh;
+
+}
+
+.im{
+    height: 30vh;
+    width: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: -1vh;
+    cursor: pointer;
+ 
+}
+.Card:hover .im{
+  
+    margin-left: 0vh;
+ 
+}
+.content{
+    text-align: left;
+    margin-top: -2vh;
+    color: rgb(100, 100, 100);
+    padding-bottom: 2%;
+    margin-left: 1vh;
+   
+}
+.name{
+    font-size: 3vh;
+    color:  rgb(180, 180, 180);
+    text-align: left;
+    width: fit-content;
+    margin-left: 1vh;
+    display: block;
+    opacity: 0.7;
+   
+}
+
+
+@media (max-width: 768px) {
+    .Card{
+        height: fit-content;
+        width: 95%;
+        background: #3a393970;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: -1vh;
+    
+    }
+    .Card:hover{
+        opacity: 0.9;
+    
+    }
+    
+    .im{
+        height: 25vh;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: -1vh;
+     
+    }
+    .Card:hover .im{
+  
+        margin-left: auto;
+     
+    }
+    .name{
+        font-size: 3vh;
+        color: white;
+        text-align: left;
+        
+        margin-left: 1vh;
+        display: block;
+    }
+    .content{
+        font-size: 2.5vh;
+       
+    }
+    }
