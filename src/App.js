@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <div className="Nav">
-        <a href=""><img className="lg" alt="" src={logo} /></a>
+        <a href="/"><img className="lg" alt="" src={logo} /></a>
 
         <a href="#work"><p className="Navw">Work</p></a>
         <a href="#foot"><p className="Navc">Contact</p></a>
@@ -109,12 +109,12 @@ function App() {
         </div>
         <div className="Iconsm">
           <a href="mailto:vshetgaonkar97@gmailcom" target="_blank" rel="noopener noreferrer"> 
-            <div className="Mail">Say Hi <span role="img">👋</span>,at vshetgaonkar97@gmailcom </div>
+            <div className="Mail">Say Hi <span role="img" aria-label="emoji">👋</span>,at vshetgaonkar97@gmailcom </div>
           </a>
         </div>
 
-        <p>👨‍🎨 Designed Using Adobe XD</p>
-        <p>👨‍💻 Build Using ReactJS </p>
+        <p><span role="img" aria-label="emoji">👨‍🎨</span> Designed Using Adobe XD</p>
+        <p><span role="img" aria-label="emoji">👨‍💻 </span>Build Using ReactJS </p>
 
       </div>
 
