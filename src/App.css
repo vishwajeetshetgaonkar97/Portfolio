@@ -325,13 +325,66 @@
 @media (max-width: 768px) {
   .About {
     display: block;
-    height: 86vh;
+    height: 90vh;
     width: 100%;
     background-color:#1F1F22;
     color: #707070;
     
   }
+  .lg{
+    top: 2vh;
+    height: 5vh;
+    width: 5vh;
+    
+  }
+  .Navw{
+    opacity: 0.5;
+    top: 0.2vh;
+    right:5vh;
+    rotate: 0deg;
+    height: 4vh;
+    width: 12vh;
+    font-size: 2vh;
+    color:  #707070;
+    padding-top: 1vh;
+   
+    position: absolute;
+    animation-name: nw;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    
+  }
+  @keyframes nw {
+    from { right:0vh;}
+    to { right:5vh;}
   
+  }
+  
+  .Navw:hover{
+    opacity: 1;
+   
+    
+  }
+  .Navc{
+    opacity: 0.5;
+    top: 0.2vh;
+    right:-1vh;
+    rotate: 0deg;
+    height: 4vh;
+    width: 12vh;
+    font-size: 2vh;
+    color:  #707070;
+    padding-top: 1vh;
+    position: absolute;
+    animation-name: nc;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    
+  }
+  @keyframes nc {
+    from { right:-10vh;}
+    to { right:-1vh;}
+  }
   .Name{
 
     font-size: 8vh;
