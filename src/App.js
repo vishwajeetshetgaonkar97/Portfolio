@@ -103,7 +103,7 @@ function App() {
             <img className="imgicon" alt="" src={twitter} />
           </a>
 
-          <a href="https://github.com/vishwajeetshetgaonkar97" target="_blank" rel="noopener noreferrer">
+          <a href="https://dribbble.com/Shetgaonkar" target="_blank" rel="noopener noreferrer">
             <img className="imgicon" alt="" src={dribble} />
           </a>
         </div>
