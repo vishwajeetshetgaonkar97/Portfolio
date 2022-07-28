@@ -17,6 +17,8 @@ import bgImg from './Assets/bgImg.png'
 import NavIndicator from './Assets/NavIndicator.png'
 import AnimatedCursor from "react-animated-cursor"
 import TopDotImage from './Assets/TopDotImage.png'
+import RightStraightImage from './Assets/RightStraightImage.png'
+import CircleImage from './Assets/CircleImage.png' 
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
       outerSize={8}
       outerAlpha={0.2}
       innerScale={0.7}
-      outerScale={5}
+      outerScale={7}
       clickables={[
         'a',
         'input[type="text"]',
@@ -42,11 +44,14 @@ function App() {
         'button',
         '.link'
       ]}/>
-    <img className="backgroundImage" alt="" src={bgImg} />
+    <div className="backgroundImage"  />
     <img className="TopDotImage" alt="" src={TopDotImage} />
+    <img className="RightStraightImage" alt="" src={RightStraightImage} />
+<img className="CircleImage" alt="" src={CircleImage} />
     <img className="topNavImage" alt="" src={NavIndicator} />
+   
       <div className="Nav">
-        <a href="/"><img className="lg" alt="" src={logo} /></a>
+        <a href="/"><img className="logo" alt="" src={logo} /></a>
         <a href="#work"><div className="Nava">About</div></a>
         <a href="#work"><div className="Navw">Work</div></a>
         <a href="#foot"><div className="Navc">Contact</div></a>
@@ -54,13 +59,17 @@ function App() {
       </div>
 
 <div className="topShowcaseContent">
-
+<div className="topInfo">Hello, I am</div>
+<div className="Name">Vishwajeet</div>
+        <div className="Surname">Shetgaonkar</div>
+        <div className="bottomInfo">A young <span>UI/UX
+          </span> and a <span>Front End Developer
+            </span> with the craze to Seek More.</div>
 </div>
 
       <div className="About">
 
-        <div className="Name">Vishwajeet</div>
-        <div className="Surname">Shetgaonkar</div>
+     
         <div className="Ab">Hi, I'm a UI/UX and a Front End Developer from Goa having good experience in Adobe Xd, React js. I also have a deep understanding of CSS and like to play around with it.
          </div>
 

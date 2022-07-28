@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: poppin-Bold;
   src: url('./Assets//Fonts/Poppins-Bold.ttf');
@@ -28,6 +30,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
