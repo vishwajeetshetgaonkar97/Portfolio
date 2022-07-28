@@ -13,12 +13,14 @@ import f1 from './Assets/f1.JPG';
 import santa from './Assets/santa.JPG';
 import spotfind from './Assets/Spot-find.png';
 import logo from './Assets/logo.png'
+import bgImg from './Assets/bgImg.png'
 
 
 function App() {
 
   return (
     <div className="App">
+    <img className="backgroundImage" alt="" src={bgImg} />
       <div className="Nav">
         <a href="/"><img className="lg" alt="" src={logo} /></a>
 
