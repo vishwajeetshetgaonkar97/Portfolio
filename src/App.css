@@ -17,10 +17,6 @@
   left:4.5vw;
   height: 6.8vh;
   position: absolute;
-  animation-name: l;
-  animation-duration: 1s;
-  animation-timing-function:ease;
-  
 }
 .TopDotImage{
   position: absolute;
@@ -48,9 +44,14 @@
   height: 12vh;
   width: 6vw;
 }
+.showcaseImage{
+  position: absolute;
+  left:62vw;
+  height: 68vh;
+ top: 32.8vh;
+}
 
 .Nav{
-
  height: 5vh;
 }
 .topShowcaseContent{
@@ -83,6 +84,7 @@ position: absolute;
 top: 5.5vh;
 left: 65vw;
 font-size: 2.2vh;
+cursor: pointer;
 }
 
 .Navw{
@@ -91,6 +93,10 @@ font-size: 2.2vh;
 
 .Navc{
     left: 78.5vw;
+}
+.Nava:hover,.Navw:hover,.Navc:hover{
+  color: rgba(220, 220, 220, 0.9);
+ 
 }
 
 .Navr{
@@ -104,12 +110,17 @@ color: rgb(255, 255, 255);
 border: 1.5px solid white;
 border-radius: 3.2vh;
 background-color: #20202000;
+cursor: pointer !important;
 }
 
+.Navr:hover{
+  color: rgba(220, 220, 220, 0.9);
+  border-color: rgba(220, 220, 220, 0.9);
+}
 .topInfo{
   font-family: poppin-Light;
   position: absolute;
-  top: 25vh;
+  top: 24.5vh;
   left: 5vw;
   font-size: 4vh;
 }
@@ -118,19 +129,19 @@ background-color: #20202000;
 .Surname{
   font-family: poppin-Bold;
   position: absolute;
-  top: 27vh;
+  top: 27.4vh;
   left: 5vw;
   font-size: 15vh;
   text-transform: capitalize;
 }
 .Surname{
-  top: 42vh;
+  top: 42.6vh;
 }
 
 .bottomInfo{
   font-family: poppin-Light;
   position: absolute;
-  top: 64vh;
+  top: 65.2vh;
   left: 5vw;
   font-size: 2.8vh;
 }
@@ -140,6 +151,37 @@ background-color: #20202000;
   font-size: 2.8vh;
   color: #ff0077;
 }
+
+.topSocialMediaComponent{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 84vh;
+  left: 5vw;
+}
+
+.topSocialMediaInfo{
+  font-family: poppin-Light;
+  font-size: 3.2vh;
+}
+.topSocialMediaIconsContainer{
+  padding-top: 1.8vh;
+  display: flex;
+  align-items: center;
+}
+
+.topSocialImageIcon{
+  height: 4vh;
+  width: 4vh;
+  padding-right: 2vw;
+  cursor: pointer;
+}
+.topSocialImageIcon:hover{
+
+ filter: grayscale(100%);
+}
+
+
 .About {
   height: 80vh;
   width: 100%;
@@ -174,22 +216,7 @@ background-color: #20202000;
   to {margin-left: 13vw;}
 
 }
-.image{
-  height: 60vh;
-  width: 45vh;
-  margin-left: 65vw;
-  margin-top: -55vh;
-  animation-name: img;
-  animation-duration: 1s;
-  animation-timing-function:ease;
-  
- 
-}
-@keyframes img {
-  from {margin-left: 150vw;}
-  to {margin-left: 65vw;}
 
-}
 .imgbg{
   
   height: 60vh;

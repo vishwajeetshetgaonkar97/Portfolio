@@ -19,6 +19,8 @@ import AnimatedCursor from "react-animated-cursor"
 import TopDotImage from './Assets/TopDotImage.png'
 import RightStraightImage from './Assets/RightStraightImage.png'
 import CircleImage from './Assets/CircleImage.png' 
+import ShowcasePicture from './Assets/ShowcasePicture.png' 
+
 
 function App() {
 
@@ -47,9 +49,10 @@ function App() {
     <div className="backgroundImage"  />
     <img className="TopDotImage" alt="" src={TopDotImage} />
     <img className="RightStraightImage" alt="" src={RightStraightImage} />
-<img className="CircleImage" alt="" src={CircleImage} />
+    <img className="CircleImage" alt="" src={CircleImage} />
     <img className="topNavImage" alt="" src={NavIndicator} />
-   
+    <img className="showcaseImage" alt="" src={ShowcasePicture}/>
+
       <div className="Nav">
         <a href="/"><img className="logo" alt="" src={logo} /></a>
         <a href="#work"><div className="Nava">About</div></a>
@@ -58,14 +61,39 @@ function App() {
         <button className="Navr">Resume</button>
       </div>
 
-<div className="topShowcaseContent">
-<div className="topInfo">Hello, I am</div>
-<div className="Name">Vishwajeet</div>
-        <div className="Surname">Shetgaonkar</div>
-        <div className="bottomInfo">A young <span>UI/UX
-          </span> and a <span>Front End Developer
-            </span> with the craze to Seek More.</div>
-</div>
+      <div className="topShowcaseContent">
+         <div className="topInfo">Hello, I am</div>
+         <div className="Name">Vishwajeet</div>
+         <div className="Surname">Shetgaonkar</div>
+         <div className="bottomInfo">A young <span>UI/UX</span> and a <span>Front End Developer
+            </span> with the craze to Seek More.
+          </div>
+
+          <div className="topSocialMediaComponent">
+            <div className="topSocialMediaInfo" >Find Me on</div>
+            <div className="topSocialMediaIconsContainer" >
+
+            <a href="https://github.com/vishwajeetshetgaonkar97" target="_blank" rel="noopener noreferrer">
+               <img className="topSocialImageIcon" alt="" src={github} />
+             </a>
+             <a href="https://www.linkedin.com/in/vishwajeet-shetgaonkar-42529618b/" target="_blank" rel="noopener noreferrer">
+              <img className="topSocialImageIcon" alt="" src={linkedin} />
+             </a>
+             <a href="https://twitter.com/vshetgaonkar97" target="_blank" rel="noopener noreferrer">
+                <img className="topSocialImageIcon" alt="" src={twitter} />
+             </a>
+
+             <a href="https://dribbble.com/Shetgaonkar" target="_blank" rel="noopener noreferrer">
+                <img className="topSocialImageIcon" alt="" src={dribble} />
+            </a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
 
       <div className="About">
 
@@ -74,7 +102,7 @@ function App() {
          </div>
 
         <div className="imgbg"></div>
-        <img className="image" alt="" src={bg}></img>
+       
 
       </div>
       <div id="work" className="Work">
