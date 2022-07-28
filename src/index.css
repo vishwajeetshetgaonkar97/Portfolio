@@ -34,3 +34,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0512b3; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0512f1; 
+}
+
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+::-webkit-scrollbar-track {
+  background-color: #0E0C38;
+
+}
+

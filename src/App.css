@@ -9,9 +9,23 @@
   height: 100vh;
   z-index: -1;
 }
+.TopDotImage{
+  position: absolute;
+  left:27vw;
+  height: 24vh;
+}
+
+.topNavImage{
+  position: absolute;
+  left:60vw;
+  height: 10vh;
+}
 .Nav{
   width: 100%;
- 
+ height: 5vh;
+}
+.topShowcaseContent{
+  height: 95vh;
 }
 .Nav > a{
   text-decoration: none;
@@ -31,64 +45,30 @@
   to {left:4vh;}
 
 }
-
-.Navw{
-  opacity: 0.5;
-  top: 0.2vh;
-  right:10vh;
-  rotate: 0deg;
-  height: 4vh;
-  width: 12vh;
-  font-size: 2.2vh;
-  color:  #707070;
-  padding-top: 1vh;
- 
+.Nava,
+.Navw,.Navc{
+color: rgb(255, 255, 255);
+font-family: poppin-Medium;
+position: absolute;
+top: 4vh;
+}
+.Navr{
   position: absolute;
-  animation-name: nw;
-  animation-duration: 1s;
-  animation-timing-function:ease;
-  
-}
-@keyframes nw {
-  from { right:0vh;}
-  to { right:10vh;}
+  font-family: poppin-Regular;
+top: 4vh;
+left: 86vw;
+font-size: 2vh;
+padding: 1.5vh 2vw;
+color: rgb(255, 255, 255);
+border: 1.5px solid white;
+border-radius: 2.4vh;
+background-color: #20202000;
 
-}
 
-.Navw:hover{
-  opacity: 1;
- 
-  
-}
-.Navc{
-  opacity: 0.5;
-  top: 0.2vh;
-  right:0vh;
-  rotate: 0deg;
-  height: 4vh;
-  width: 12vh;
-  font-size: 2.2vh;
-  color:  #707070;
-  padding-top: 1vh;
-  position: absolute;
-  animation-name: nc;
-  animation-duration: 1s;
-  animation-timing-function:ease;
-  
-}
-@keyframes nc {
-  from { right:-10vh;}
-  to { right:0vh;}
-}
-.Navc:hover{
-  opacity: 1;
-  
 }
 .About {
   height: 80vh;
   width: 100%;
-  background-color:#1F1F22;
-  color: #707070;
   
 }
 

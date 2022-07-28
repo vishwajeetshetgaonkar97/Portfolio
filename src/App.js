@@ -14,21 +14,49 @@ import santa from './Assets/santa.JPG';
 import spotfind from './Assets/Spot-find.png';
 import logo from './Assets/logo.png'
 import bgImg from './Assets/bgImg.png'
-
+import NavIndicator from './Assets/NavIndicator.png'
+import AnimatedCursor from "react-animated-cursor"
+import TopDotImage from './Assets/TopDotImage.png'
 
 function App() {
 
   return (
     <div className="App">
+       <AnimatedCursor 
+       innerSize={7}
+      color="255,5,19"
+      outerSize={8}
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}/>
     <img className="backgroundImage" alt="" src={bgImg} />
+    <img className="TopDotImage" alt="" src={TopDotImage} />
+    <img className="topNavImage" alt="" src={NavIndicator} />
       <div className="Nav">
         <a href="/"><img className="lg" alt="" src={logo} /></a>
-
-        <a href="#work"><p className="Navw">Work</p></a>
-        <a href="#foot"><p className="Navc">Contact</p></a>
-
-
+        <a href="#work"><div className="Nava">About</div></a>
+        <a href="#work"><div className="Navw">Work</div></a>
+        <a href="#foot"><div className="Navc">Contact</div></a>
+        <button className="Navr">Resume</button>
       </div>
+
+<div className="topShowcaseContent">
+
+</div>
+
       <div className="About">
 
         <div className="Name">Vishwajeet</div>
