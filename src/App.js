@@ -20,7 +20,8 @@ import TopDotImage from './Assets/TopDotImage.png'
 import RightStraightImage from './Assets/RightStraightImage.png'
 import CircleImage from './Assets/CircleImage.png' 
 import ShowcasePicture from './Assets/ShowcasePicture.png' 
-
+import aboutShowcaseImage from './Assets/aboutShowcaseImage.png'
+import aboutImage from './Assets/aboutImage.png'
 
 function App() {
 
@@ -96,15 +97,26 @@ function App() {
 
 
       <div className="About">
+      <img className="topAboutInfoHeadingImage" alt="" src={aboutImage} />
+      <div className="topAboutInfoHeading" >About Me  <div className="topAboutInfoHeadingLine" /></div>
+      <div className="aboutMainContainer">
+     <div className="topAboutInfoLeftContainer" >
 
-     
-        <div className="Ab">Hi, I'm a UI/UX and a Front End Developer from Goa having good experience in Adobe Xd, React js. I also have a deep understanding of CSS and like to play around with it.
+  
+        <div className="AboutTopTest">I'm probably not the typical designer/developer with a definite learning path. I started my academics with a bachelor's degree in electronics and communication engineering but fumbled into UI/UX and fell in love with it. thereafter pursuing it as a career alongside my fondness for programming.
          </div>
 
-        <div className="imgbg"></div>
-       
+        <div className="AboutBottomTest"> For the past 2 yrs, I'm working as a Lead UI/UX & a Front End Developer in a well-renowned product-based startup - <a href="https://github.com/vishwajeetshetgaonkar97" target="_blank" rel="noopener noreferrer" className="AboutBottomTestCompany">SPORTVOT</a>. </div>
+        </div>
 
+        <img className="topAboutInfoShowcaseImage" alt="" src={aboutShowcaseImage} />
+        </div>
       </div>
+
+
+
+
+
       <div id="work" className="Work">
         <div className="w">Work</div>
 

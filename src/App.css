@@ -2,9 +2,10 @@
   margin:0;
   font-family: poppin-Regular;
   color:white;
-
-  
 }
+
+/* images css */
+
 .backgroundImage{
   position: fixed;
   width: 100vw;
@@ -38,17 +39,23 @@
   height: 60vh;
 
 }
-.topNavImage{
-  position: absolute;
-  left:63.6vw;
-  height: 12vh;
-  width: 6vw;
-}
+
 .showcaseImage{
   position: absolute;
   left:62vw;
   height: 68vh;
  top: 32.8vh;
+}
+
+/* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
+
+/* nav */
+
+.topNavImage{
+  position: absolute;
+  left:63.6vw;
+  height: 12vh;
+  width: 6vw;
 }
 
 .Nav{
@@ -76,6 +83,8 @@
   to {left:4vh;}
 
 }
+
+
 .Nava,
 .Navw,.Navc{
 color: rgb(255, 255, 255);
@@ -117,6 +126,11 @@ cursor: pointer !important;
   color: rgba(220, 220, 220, 0.9);
   border-color: rgba(220, 220, 220, 0.9);
 }
+
+
+/* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
+
+/* top section css */
 .topInfo{
   font-family: poppin-Light;
   position: absolute;
@@ -181,13 +195,71 @@ cursor: pointer !important;
  filter: grayscale(100%);
 }
 
+/* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
+
+/* about code */
 
 .About {
-  height: 80vh;
+  height: 120vh;
   width: 100%;
-  
+  padding-top: 24vh;
+  margin-top: 15vh;
+  background-image: linear-gradient(to bottom right,#0B062F ,#3a002938 );
 }
 
+.topAboutInfoHeadingImage{
+  height: 40vh;
+  width: 21vw;
+}
+.topAboutInfoHeading{
+  margin-left: 5vw;
+  margin-top: -27vh;
+  font-family: poppin-SemiBold;
+  font-size: 5.5vh;
+  display: flex;
+  align-items: center;
+}
+.topAboutInfoHeadingLine{
+  height: 0vh;
+  width: 40vw;
+  margin-left: 15vw;
+  background-color: #FF0513;
+  border: 0.5px solid #FF0513;
+  border-radius: 1vh;
+}
+
+.aboutMainContainer{
+  display: flex;
+}
+
+.topAboutInfoLeftContainer{
+  font-family: poppin-Light;
+  font-size: 2.6vh;
+  line-height: 6.4vh;
+  margin-left: 5vw;
+  padding-right: 6vw;
+}
+
+.AboutTopTest{
+  padding-top: 4vh;
+}
+
+.AboutBottomTest{
+  padding-top: 4vh;
+}
+
+.AboutBottomTestCompany{
+  text-decoration: none;
+  font-family: poppin-Bold;
+  color: #0082D5;
+}
+.topAboutInfoShowcaseImage{
+  height: 97vh;
+  margin-right: 4vw;
+  margin-top: -16vh;
+}
+
+/* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
 
 .Ab{
   font-size: 3vh;
