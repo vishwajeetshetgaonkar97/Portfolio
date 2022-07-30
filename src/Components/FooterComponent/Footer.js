@@ -8,7 +8,7 @@ import dribble from '../../Assets/dribbble.png';
 
 const Footer = (props) => {
     return (
-        <div  className="footerContainer"  >
+        <div   id="foot" className="footerContainer"  >
             <div className="footerTopLine"/>
             <img className="footerLogo" alt="" src={logo} />
 

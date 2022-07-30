@@ -22,6 +22,7 @@ import aboutImage from './Assets/aboutImage.png'
 import SkillsComponent from './Components/SkillsComponent/SkillsComponent';
 import CertificationAndApprotiation from './Components/CertificationAndApprotiation/CertificationAndApprotiation';
 import Footer from './Components/FooterComponent/Footer';
+import WorkComponent from './Components/WorkComponent/WorkComponent';
 
 function App() {
 
@@ -56,7 +57,7 @@ function App() {
 
       <div className="Nav">
         <a href="/"><img className="logo" alt="" src={logo} /></a>
-        <a href="#work"><div className="Nava">About</div></a>
+        <a href="#about"><div className="Nava">About</div></a>
         <a href="#work"><div className="Navw">Work</div></a>
         <a href="#foot"><div className="Navc">Contact</div></a>
         <button className="Navr">Resume</button>
@@ -96,9 +97,9 @@ function App() {
 
 
 
-      <div className="About">
+      <div className="About" id="about">
       <img className="topAboutInfoHeadingImage" alt="" src={aboutImage} />
-      <div className="topAboutInfoHeading" >About Me  <div className="topAboutInfoHeadingLine" /></div>
+      <div className="About" className="topAboutInfoHeading" >About Me  <div className="topAboutInfoHeadingLine" /></div>
       <div className="aboutMainContainer">
      <div className="topAboutInfoLeftContainer" >
 
@@ -113,46 +114,7 @@ function App() {
         </div>
       </div>
 
-
-
-
-
-      <div id="work" className="Work">
-        <div className="w">Work</div>
-
-        <div data-aos="fade-right" className="Bar"></div>
-        <div className="N">Designs</div>
-        <div className="Wdisplay">
-          <a href="https://dribbble.com/shots/14234736-workforce" target="_blank" rel="noopener noreferrer">
-            <Work image={workforce} Title="Workforce" Content="a work service app" /></a>
-          <a href="https://dribbble.com/shots/14234864-Rate-5" target="_blank" rel="noopener noreferrer">
-            <Work image={rate5} Title="Rate5" Content="a faculty rating web tool" /></a>
-
-        </div>
-        <div className="N">CSS</div>
-        <div className="box">
-          <div className="Wdisplay">
-            <a href="https://codepen.io/vshetgaonkar/pen/WNbjOzB" target="_blank" rel="noopener noreferrer">
-              <Work image={f1} Title="CSS F1 Car" Content=" " /></a>
-            <a href="https://codepen.io/vshetgaonkar/pen/poyPXbe" target="_blank" rel="noopener noreferrer">
-              <Work image={santa} Title="CSS Santa claus" Content=" " /></a>
-
-          </div></div>
-
-        <div className="N">Project</div>
-        <div className="Wdisplay">
-
-
-          <a href="https://spot-find.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-
-            <Work image={spotfind} Title="Spot-find" Content="a music discovery tool." /></a>
-
-
-
-
-        </div>
-      </div>
-
+<WorkComponent/>
 
 <SkillsComponent/>
 
