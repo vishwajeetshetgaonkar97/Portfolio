@@ -455,6 +455,7 @@ left: 0;
     height: fit-content;
     width: 100%;
     padding-top: 14vh;
+    padding-bottom: 2vh;
     margin-top: 12vh;
     background-image: linear-gradient(to bottom right,#0B062F ,#3a002938 );
   }
@@ -509,7 +510,7 @@ left: 0;
     height: 60vh;
     width: 95vw;
     margin-right: 4vw;
-    margin-top: 2.5vh;
+    margin-top: 5vh;
   }
   
   /* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */

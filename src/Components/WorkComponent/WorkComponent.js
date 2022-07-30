@@ -22,9 +22,9 @@ const WorkComponent = (props) => {
 <div className="workContainerSubHeading"> Design</div>
             <div className="workImageContainer">
 
-<div className="workImageInnerContainer">
+<div className="workImageInnerContainer" onClick={  ()=> window.open("https://dribbble.com/shots/18927410-Sport-OTT-Dashboard?utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Sport%20OTT%20Dashboard&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Sport%20OTT%20Dashboard&utm_medium=Social_Share")     }>
 <img className="workImage" alt="" src={DashboardDesign}   />
-<div className="workHoverInfo" onClick={  ()=> window.open("https://dribbble.com/shots/18927410-Sport-OTT-Dashboard?utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Sport%20OTT%20Dashboard&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Sport%20OTT%20Dashboard&utm_medium=Social_Share")     }> 
+<div className="workHoverInfo" > 
 
 <div className="workHoverInfoHeading">
 Studio Dashboard Design
@@ -36,9 +36,9 @@ a mockup of a sport studio analytic Design
 </div>
 </div>
 
-<div className="workImageInnerContainer">
+<div className="workImageInnerContainer" onClick={  ()=> window.open("https://dribbble.com/shots/18927338-Cricket-Player-Profile?utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Cricket%20Player%20Profile&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Cricket%20Player%20Profile&utm_medium=Social_Share")     }>
 <img className="workImage" alt="" src={PlayerDesign}        />
-<div className="workHoverInfo" onClick={  ()=> window.open("https://dribbble.com/shots/18927338-Cricket-Player-Profile?utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Cricket%20Player%20Profile&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Shetgaonkar&utm_content=Cricket%20Player%20Profile&utm_medium=Social_Share")     } > 
+<div className="workHoverInfo"  > 
 
 <div className="workHoverInfoHeading">
 Cricket Player Profile Design
@@ -52,9 +52,9 @@ a Player journey profile mockup
 </div>
 
 
-<div className="workImageInnerContainer">
+<div className="workImageInnerContainer" onClick={  ()=> window.open("https://dribbble.com/shots/14234736-workforce")     }>
 <img className="workImage" alt="" src={workforce}        />
-<div className="workHoverInfo" onClick={  ()=> window.open("https://dribbble.com/shots/14234736-workforce")     } > 
+<div className="workHoverInfo"  > 
 
 <div className="workHoverInfoHeading">
 Work Force

@@ -11,12 +11,14 @@
 }
 
 .workContainerHeading,.workContainerSubHeading{
-font-family: poppin-Light;
+  font-family: poppin-SemiBold;
+
 font-size: 4.5vh;
 margin-left: 5vw;
 
 }
 .workContainerSubHeading{
+  font-family: poppin-Medium;
 margin-top: 10vh;
 margin-left: 5.5vw;
 font-size: 3.2vh;
@@ -95,7 +97,89 @@ font-size: 3.2vh;
   opacity: 0.85;
 }
 
+.workImageHeading{
+  font-family: poppin-Medium;
+  font-size: 2.6vh;
+  padding-top: 2vh;
+  text-transform: capitalize;
+}
 
+/*-----------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------*/
+
+@media (max-width: 768px) {
+
+.workContainer {
+  height: fit-content;
+  width: 100%;
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+ 
+}
+
+.workContainerHeading,.workContainerSubHeading{
+font-size: 3.2vh;
+margin-left: 5vw;
+
+}
+.workContainerSubHeading{
+margin-top: 5vh;
+margin-left: 5.5vw;
+font-size: 2.6vh;
+
+}
+.workContainerHeadingUnderline{
+  margin-top: -2.4vh;
+  margin-left: 32vw;
+  width: 21vw;
+}
+
+.workImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 2.2vw;
+  margin-top: 0vh;
+  
+}
+
+.workImageInnerContainer{
+  padding: 0vh 3.2vw;
+  padding-top: 3vh;
+
+}
+
+.workImage{
+  height: 30vh;
+  width: calc(30vh* 4/3);
+  
+}
+.workHoverInfo{
+  height: fit-content;
+  width: calc(30vh* 4/3);
+  border-radius: 0vh 0vh 1vh 1vh;
+  margin-top: -1.5vh;
+  position: relative;
+ opacity: 0.95;
+ cursor: pointer;
+ padding-top: 0.8vh;
+}
+
+.workHoverInfoHeading{
+  font-size: 2vh;
+  padding: 0 1vw;
+}
+.workHoverInfoSubHeading{
+  font-size: 1.6vh;
+  padding: 0.2vh 0.5vw;
+  color: rgba(240, 248, 255, 0.813);
+  padding-bottom: 1.4vh;
+}
+
+.workHoverInfo:hover  {
+  transform: scale(1); 
+  opacity: 1;
+}
 
 .workImageHeading{
   font-family: poppin-Medium;
@@ -104,35 +188,7 @@ font-size: 3.2vh;
   text-transform: capitalize;
 }
 
-@media (max-width: 768px) {
-
-  .workImage{
-    height: 20vh;
-    width: calc(20vh* 4/3);
-    transition: transform .2s;
-    cursor: pointer;
-    border-radius: 2vh;
-    
-  }
-  .workHoverInfo{
-    height: 20vh;
-    width: calc(20vh* 4/3);
-    border-radius: 2vh;
-    transition: transform .4s;
-    transition-timing-function: ease-in-out;
-    background-color: #FF0513;
-    background-image: linear-gradient(to bottom left, #ff000d,#ff3737dd );
-    margin-top: -40vh;
-    position: relative;
-   opacity: 0;
-   cursor: pointer;
   
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   text-align: center;
-  }
 
 
 }
