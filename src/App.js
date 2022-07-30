@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import bg from './Assets/dp.jpg';
-import Skil from './Components/Skill/Skil';
 import Work from './Components/Work/Work';
 import github from './Assets/github.png';
 import linkedin from './Assets/linkedin.png';
@@ -13,7 +11,6 @@ import f1 from './Assets/f1.JPG';
 import santa from './Assets/santa.JPG';
 import spotfind from './Assets/Spot-find.png';
 import logo from './Assets/logo.png'
-import bgImg from './Assets/bgImg.png'
 import NavIndicator from './Assets/NavIndicator.png'
 import AnimatedCursor from "react-animated-cursor"
 import TopDotImage from './Assets/TopDotImage.png'
@@ -22,6 +19,9 @@ import CircleImage from './Assets/CircleImage.png'
 import ShowcasePicture from './Assets/ShowcasePicture.png' 
 import aboutShowcaseImage from './Assets/aboutShowcaseImage.png'
 import aboutImage from './Assets/aboutImage.png'
+import SkillsComponent from './Components/SkillsComponent/SkillsComponent';
+import CertificationAndApprotiation from './Components/CertificationAndApprotiation/CertificationAndApprotiation';
+import Footer from './Components/FooterComponent/Footer';
 
 function App() {
 
@@ -106,7 +106,7 @@ function App() {
         <div className="AboutTopTest">I'm probably not the typical designer/developer with a definite learning path. I started my academics with a bachelor's degree in electronics and communication engineering but fumbled into UI/UX and fell in love with it. thereafter pursuing it as a career alongside my fondness for programming.
          </div>
 
-        <div className="AboutBottomTest"> For the past 2 yrs, I'm working as a Lead UI/UX & a Front End Developer in a well-renowned product-based startup - <a href="https://github.com/vishwajeetshetgaonkar97" target="_blank" rel="noopener noreferrer" className="AboutBottomTestCompany">SPORTVOT</a>. </div>
+        <div className="AboutBottomTest"> For the past 2 yrs, I'm working as a Lead UI/UX & a Front End Developer in a well-renowned product-based startup - <a href="https://sportvot.com/" target="_blank" rel="noopener noreferrer" className="AboutBottomTestCompany">SPORTVOT</a>. </div>
         </div>
 
         <img className="topAboutInfoShowcaseImage" alt="" src={aboutShowcaseImage} />
@@ -152,50 +152,17 @@ function App() {
 
         </div>
       </div>
-      <div className="Skills">
-        <div className="Lists">
-          <div className="s">Skills</div>
-          <div className="SBar"></div>
-          <div className="Ldis">
 
-            <Skil Skills="React Js" />
-            <Skil Skills="CSS" />
-            <Skil Skills="HTML" />
-            <Skil Skills="Javascript" />
-            <Skil Skills="Adobe XD" />
-            <Skil Skills="Figma" />
-          </div>
-        </div>
-      </div>
-      <div id="foot" className="Footer">
-        <div className="w">Get In Touch</div>
-        <div className="Bar"></div>
 
-        <div className="Icons">
-          <a href="https://github.com/vishwajeetshetgaonkar97" target="_blank" rel="noopener noreferrer">
-            <img className="imgicon" alt="" src={github} />
-          </a>
-          <a href="https://www.linkedin.com/in/vishwajeet-shetgaonkar-42529618b/" target="_blank" rel="noopener noreferrer">
-            <img className="imgicon" alt="" src={linkedin} />
-          </a>
-          <a href="https://twitter.com/vshetgaonkar97" target="_blank" rel="noopener noreferrer">
-            <img className="imgicon" alt="" src={twitter} />
-          </a>
+<SkillsComponent/>
 
-          <a href="https://dribbble.com/Shetgaonkar" target="_blank" rel="noopener noreferrer">
-            <img className="imgicon" alt="" src={dribble} />
-          </a>
-        </div>
-        <div className="Iconsm">
-          <a href="mailto:vshetgaonkar97@gmailcom" target="_blank" rel="noopener noreferrer"> 
-            <div className="Mail">Say Hi <span role="img" aria-label="emoji">👋</span>,at vshetgaonkar97@gmailcom </div>
-          </a>
-        </div>
+<CertificationAndApprotiation/>
 
-        <p><span role="img" aria-label="emoji">👨‍🎨</span> Designed Using Adobe XD</p>
-        <p><span role="img" aria-label="emoji">👨‍💻 </span>Build Using ReactJS </p>
+<Footer/>
 
-      </div>
+
+    
+     
 
     </div>
   );

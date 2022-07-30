@@ -1,0 +1,109 @@
+
+
+/* about code */
+
+.footerContainer {
+  height: 82vh;
+  width: 100%;
+  padding-top: 0.5vh;
+  background-color: #040221;
+}
+
+.footerTopLine{
+  text-align: center;
+  border: 0.2px solid #FF0513;
+  background-color: #FF0513;
+  margin-top: 2.5vh;
+  width: 0.05vw;
+  height: 11vh;
+  border-radius: 2vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerLogo{
+  margin-top: 2.8vh;
+  height: 10vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerRouteInfoLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppin-Medium;
+  color: aliceblue;
+  font-size: 2.2vh;
+  margin-top: 21vh;
+ 
+}
+.footerRouteInfoLine a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.FAbout,.FWork,.FResume{
+  padding: 0 0.6vw;
+  cursor: pointer;
+  transition: transform .4s;
+}
+.FAbout:hover,.FWork:hover,.FResume:hover{
+  transform: scale(1.1); 
+}
+.footerContactInfoLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppin-Medium;
+  color: aliceblue;
+  font-size: 2vh;
+  margin-top: 1.2vh;
+  padding-bottom: 9vh;
+  height: 2.8vh;
+}
+.footerContactInfoLine a {
+  text-decoration: none;
+  color: #FF0077;
+  padding-left: 0.32vw;
+  cursor: pointer !important;
+  font-family: poppin-SemiBold;
+  cursor: pointer;
+  transition: transform .4s;
+}
+.footerContactInfoLine a:hover{
+  transform: scale(1.05); 
+ }
+.Icons{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vh;
+  height: 6vh;
+}
+.imgicon {
+  height: 4.5vh;
+  width: 4.5vh;
+  padding: 2vh;
+  cursor: pointer;
+  transition: transform .4s;
+}
+.imgicon:hover{
+  transform: scale(1.2); 
+  filter: grayscale(100%);
+}
+
+.footerBottomCopyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppin-Regular;
+  font-size: 1.8vh;
+  padding-top: 4vh;
+  border-top: 1px solid #707070;
+  margin-top:14vh;
+}

@@ -94,6 +94,7 @@ top: 5.5vh;
 left: 65vw;
 font-size: 2.2vh;
 cursor: pointer;
+transition: transform .4s;
 }
 
 .Navw{
@@ -104,7 +105,7 @@ cursor: pointer;
     left: 78.5vw;
 }
 .Nava:hover,.Navw:hover,.Navc:hover{
-  color: rgba(220, 220, 220, 0.9);
+  transform: scale(1.1); 
  
 }
 
@@ -120,11 +121,12 @@ border: 1.5px solid white;
 border-radius: 3.2vh;
 background-color: #20202000;
 cursor: pointer !important;
+transition: transform .4s;
 }
 
 .Navr:hover{
-  color: rgba(220, 220, 220, 0.9);
-  border-color: rgba(220, 220, 220, 0.9);
+
+  transform: scale(1.1); 
 }
 
 
@@ -189,10 +191,12 @@ cursor: pointer !important;
   width: 4vh;
   padding-right: 2vw;
   cursor: pointer;
+  transition: transform .4s;
 }
 .topSocialImageIcon:hover{
 
  filter: grayscale(100%);
+ transform: scale(1.1); 
 }
 
 /* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
@@ -252,6 +256,12 @@ cursor: pointer !important;
   text-decoration: none;
   font-family: poppin-Bold;
   color: #0082D5;
+  cursor: pointer !important;
+  transition: font-size .4s;
+  font-size: 2.6vh;
+}
+.AboutBottomTestCompany:hover{
+ font-size: 2.8vh;
 }
 .topAboutInfoShowcaseImage{
   height: 97vh;
@@ -398,12 +408,7 @@ cursor: pointer !important;
   color: #707070;
   
 }
-.Icons{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1vh;
-  height: 6vh;
-}
+
 .Iconsm{
   display: flex;
   justify-content: center;
@@ -436,17 +441,7 @@ cursor: pointer !important;
  
   color: aliceblue;
 }
-.imgicon {
-  height: 5vh;
-  width: 5vh;
-  padding: 2vh;
-  cursor: pointer;
-}
-.imgicon:hover{
-  height: 6vh;
-  width: 6vh;
- 
-}
+
 
 .Footer > p{
   margin-right: 12vw;
