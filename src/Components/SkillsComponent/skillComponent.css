@@ -58,3 +58,49 @@ text-align: center;
   padding-top: 2vh;
   text-transform: capitalize;
 }
+
+/*-----------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------*/
+
+@media (max-width: 768px) {
+
+  .skillsContainer {
+    height: fit-content;
+    width: 100%;
+    padding-top: 5vh;
+    margin-top: 7vh;
+    padding-bottom: 7vh;
+  }
+  
+  .skillsContainerHeading{
+  font-size: 4vh;
+  
+  }
+  .skillsContainerHeadingUnderline{
+    margin-top: 1.5vh;
+    width: 42vw;
+   
+  }
+  
+
+  .skillsImageInnerContainer{
+   
+    padding: 0vh 4vw;
+    padding-top: 7vh;
+  
+  }
+  
+  .SkillImage{
+    height:7vh;
+    width: 7vh;
+  }
+  
+  .SkillImageHeading{
+    font-size: 2vh;
+    padding-top: 2vh;
+  }
+
+
+
+
+
+}

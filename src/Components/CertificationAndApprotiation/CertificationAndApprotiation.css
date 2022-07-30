@@ -102,6 +102,103 @@ text-align: center;
 
 @media (max-width: 768px) {
 
+  .certificateContainer {
+    height: fit-content;
+    width: 100%;
+    padding-top: 16vh;
+    padding-bottom: 18vh;
+    margin-top: -1vh;
+   
+  }
+  
+  .certificateContainerHeading{
+  font-family: poppin-SemiBold;
+  font-size: 6.5vh;
+  text-align: center;
+  
+  }
+  .certificateContainerHeadingUnderline{
+    text-align: center;
+    border: 0.5px solid #FF0513;
+    background-color: #FF0513;
+    margin-top: 2.5vh;
+    width: 44vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .certificateImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .certificateImageInnerContainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 3.2vw;
+    padding-top: 14vh;
+  
+  }
+  
+  .certificateImage{
+    height: 40vh;
+    width: calc(40vh* 4/3);
+    transition: transform .2s;
+    cursor: pointer;
+    border-radius: 2vh;
+  }
+  .certificateHoverInfo{
+    height: 40vh;
+    width: calc(40vh* 4/3);
+    border-radius: 2vh;
+    transition: transform .4s;
+    transition-timing-function: ease-in-out;
+    background-color: #FF0513;
+    background-image: linear-gradient(to bottom left, #ff000d,#ff3737dd );
+    margin-top: -40vh;
+    position: relative;
+   opacity: 0;
+   cursor: pointer;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+  }
+  .certificateHoverInfoHeading{
+    font-family: poppin-Bold;
+    font-size: 2.4vh;
+    padding: 0 1vw;
+  }
+  .certificateHoverInfoSubHeading{
+    font-family: poppin-SemiBold;
+    font-size: 2vh;
+    padding: 0.5vh 0.5vw;
+    color: rgba(240, 248, 255, 0.813);
+  }
+  
+  .certificateHoverInfo:hover  {
+    transform: scale(1.05); 
+    opacity: 0.85;
+  }
+  
+  
+  
+  .certificateImageHeading{
+    font-family: poppin-Medium;
+    font-size: 2.6vh;
+    padding-top: 2vh;
+    text-transform: capitalize;
+  }
   .certificateImage{
     height: 20vh;
     width: calc(20vh* 4/3);
