@@ -6,7 +6,7 @@ import linkedin from '../../Assets/linkedin.png';
 import twitter from '../../Assets/twitter.png';
 import dribble from '../../Assets/dribbble.png';
 
-const Footer = (props) => {
+const Footer = ({downloadImage}) => {
     return (
         <div   id="foot" className="footerContainer"  >
             <div className="footerTopLine"/>
@@ -14,9 +14,9 @@ const Footer = (props) => {
 
 <div className="footerRouteInfoLine" >
 
-<a href="#work"><div className="FAbout">About</div></a>|
+<a href="#about"><div className="FAbout">About</div></a>|
         <a href="#work"><div className="FWork">Work</div></a>|
-        <a >  <div className="FResume">Resume</div> </a>
+        <a >  <div className="FResume" onClick={downloadImage}>Resume</div> </a>
 </div>
 
 <div className="footerContactInfoLine" >

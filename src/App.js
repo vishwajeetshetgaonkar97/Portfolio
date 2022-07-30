@@ -23,8 +23,16 @@ import SkillsComponent from './Components/SkillsComponent/SkillsComponent';
 import CertificationAndApprotiation from './Components/CertificationAndApprotiation/CertificationAndApprotiation';
 import Footer from './Components/FooterComponent/Footer';
 import WorkComponent from './Components/WorkComponent/WorkComponent';
-
+import { saveAs } from 'file-saver'
 function App() {
+
+  const downloadImage = () => {
+    console.log("ingooo")
+    saveAs('https://i.postimg.cc/pXv5gdzs/Vishwajeet-Shetgaonkar-CV-page-0001.jpg', 'Vishwajeet Shetgaonkar Resume.jpg') 
+  }
+
+ 
+
 
   return (
     <div className="App">
@@ -60,7 +68,7 @@ function App() {
         <a href="#about"><div className="Nava">About</div></a>
         <a href="#work"><div className="Navw">Work</div></a>
         <a href="#foot"><div className="Navc">Contact</div></a>
-        <button className="Navr">Resume</button>
+        <button className="Navr" onClick={downloadImage}>Resume</button>
       </div>
 
       <div className="topShowcaseContent">
@@ -99,7 +107,7 @@ function App() {
 
       <div className="About" id="about">
       <img className="topAboutInfoHeadingImage" alt="" src={aboutImage} />
-      <div className="About" className="topAboutInfoHeading" >About Me  <div className="topAboutInfoHeadingLine" /></div>
+      <div  className="topAboutInfoHeading" >About Me  <div className="topAboutInfoHeadingLine" /></div>
       <div className="aboutMainContainer">
      <div className="topAboutInfoLeftContainer" >
 
@@ -120,7 +128,7 @@ function App() {
 
 <CertificationAndApprotiation/>
 
-<Footer/>
+<Footer downloadImage={downloadImage}/>
 
 
     

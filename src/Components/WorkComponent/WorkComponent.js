@@ -8,6 +8,9 @@ import f1 from '../../Assets/f1.JPG';
 import santa from '../../Assets/santa.JPG';
 import spotfind from '../../Assets/Spot-find.png';
 
+
+
+
 const WorkComponent = (props) => {
     return (
         <div id="work"  className="workContainer"  >
@@ -65,19 +68,7 @@ a work service app
 </div>
 
 
-<div className="workImageInnerContainer">
-<img className="workImage" alt="" src={rate5} />
-<div className="workHoverInfo" onClick={  ()=> window.open("https://dribbble.com/shots/14234864-Rate-5")     } > 
 
-<div className="workHoverInfoHeading">
-Rate5
-</div>
-<div className="workHoverInfoSubHeading">
-a faculty rating tool
-</div>
-
-</div>
-</div>
 
 
             </div>
