@@ -319,7 +319,7 @@ transition: transform .4s;
   
   .MenuImage{
     display: block;
-    position: fixed;
+    position: absolute;
     left: 82vw;
     height: 5vh;
     top: 2vh;
