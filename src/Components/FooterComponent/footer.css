@@ -72,7 +72,7 @@
   color: #FF0077;
   padding-left: 0.32vw;
   cursor: pointer !important;
-  font-family: poppin-SemiBold;
+  font-family: poppin-Bold;
   cursor: pointer;
   transition: transform .4s;
 }
