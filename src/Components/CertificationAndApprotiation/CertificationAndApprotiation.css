@@ -99,3 +99,35 @@ text-align: center;
   padding-top: 2vh;
   text-transform: capitalize;
 }
+
+@media (max-width: 768px) {
+
+  .certificateImage{
+    height: 20vh;
+    width: calc(20vh* 4/3);
+    transition: transform .2s;
+    cursor: pointer;
+    border-radius: 2vh;
+  }
+  .certificateHoverInfo{
+    height: 20vh;
+    width: calc(20vh* 4/3);
+    border-radius: 2vh;
+    transition: transform .4s;
+    transition-timing-function: ease-in-out;
+    background-color: #FF0513;
+    background-image: linear-gradient(to bottom left, #ff000d,#ff3737dd );
+    margin-top: -40vh;
+    position: relative;
+   opacity: 0;
+   cursor: pointer;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+  }
+
+
+}

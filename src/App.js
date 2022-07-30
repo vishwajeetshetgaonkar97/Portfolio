@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import './App.css';
 import Work from './Components/Work/Work';
 import github from './Assets/github.png';
@@ -23,17 +23,28 @@ import SkillsComponent from './Components/SkillsComponent/SkillsComponent';
 import CertificationAndApprotiation from './Components/CertificationAndApprotiation/CertificationAndApprotiation';
 import Footer from './Components/FooterComponent/Footer';
 import WorkComponent from './Components/WorkComponent/WorkComponent';
+import Menu from './Assets/menu.png'
 import { saveAs } from 'file-saver'
+
 function App() {
 
   const downloadImage = () => {
     console.log("ingooo")
     saveAs('https://i.postimg.cc/pXv5gdzs/Vishwajeet-Shetgaonkar-CV-page-0001.jpg', 'Vishwajeet Shetgaonkar Resume.jpg') 
+   handleDrawerClose()
   }
 
- 
+  const [showDrawer, setShowDrawer] = useState(false);
 
+const handleDrawerOpen = ()=>{
+setShowDrawer(true)
 
+}
+const handleDrawerClose = ()=>{
+  setShowDrawer(false)
+  
+  }
+console.log("show",showDrawer)
   return (
     <div className="App">
        <AnimatedCursor 
@@ -63,11 +74,17 @@ function App() {
     <img className="topNavImage" alt="" src={NavIndicator} />
     <img className="showcaseImage" alt="" src={ShowcasePicture}/>
 
-      <div className="Nav">
-        <a href="/"><img className="logo" alt="" src={logo} /></a>
-        <a href="#about"><div className="Nava">About</div></a>
-        <a href="#work"><div className="Navw">Work</div></a>
-        <a href="#foot"><div className="Navc">Contact</div></a>
+<img  className="MenuImage" alt=""    src={Menu}  onClick={handleDrawerOpen}/>
+
+
+
+<a href="/"><img className="logo" alt="" src={logo} /></a>
+
+      <div className={`Nav  ${showDrawer? "NavDisplay":""}`}  >
+        
+        <a href="#about"  onClick={handleDrawerClose}  ><div className="Nava">About</div></a>
+        <a href="#work" onClick={handleDrawerClose}><div className="Navw">Work</div></a>
+        <a href="#foot" onClick={handleDrawerClose}><div className="Navc">Contact</div></a>
         <button className="Navr" onClick={downloadImage}>Resume</button>
       </div>
 
