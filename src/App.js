@@ -80,7 +80,7 @@ console.log("show",showDrawer)
 
 <a href="/"><img className="logo" alt="" src={logo} /></a>
 
-      <div className={`Nav  ${showDrawer? "NavDisplay":""}`}  >
+      <div className={`Nav  ${showDrawer? "NavDisplay":""}`} onClick={handleDrawerClose} >
         
         <a href="#about"  onClick={handleDrawerClose}  ><div className="Nava">About</div></a>
         <a href="#work" onClick={handleDrawerClose}><div className="Navw">Work</div></a>
