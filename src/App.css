@@ -282,28 +282,27 @@ transition: transform .4s;
   
   .logo{
     top: 2vh;
-    left:2.5vw;
+    left:2.8vw;
     height: 4vh;
   }
   .TopDotImage{
-    left:12vw;
-    height: 12vh;
+    left:27vw;
+    height: 7vh;
     width: 47vw;
   }
   .RightStraightImage{
-    top: 70vh;
+    top: 80vh;
     height: 25vh;
     width: 14vw;
   }
   .CircleImage{
     position: absolute;
-    left: -10vw;
-    top:32vh;
-    height: 20vh;
+    left: -30vw;
+    top:16vh;
+    height: 42vh;
   
   }
   
-
   
   /* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
   
@@ -392,51 +391,38 @@ left: 0;
   
   /* top section css */
   .topInfo{
-    font-family: poppin-Light;
-    position: absolute;
-    top: 24.5vh;
-    left: 5vw;
-    font-size: 4vh;
+    top: 20.2vh;
+    font-size: 3vh;
   }
   
   .Name,
   .Surname{
-    font-family: poppin-Bold;
-    position: absolute;
-    top: 27.4vh;
-    left: 5vw;
-    font-size: 5vh;
-    text-transform: capitalize;
+    top: 25vh;
+    font-size: 5.5vh;
   }
   .Surname{
-    top: 42.6vh;
+    top: 32vh;
   }
   
   .bottomInfo{
-    font-family: poppin-Light;
-    position: absolute;
-    top: 65.2vh;
+    top: 41vh;
     left: 5vw;
-    font-size: 2.8vh;
+    font-size: 2.2vh;
+    line-height: 4vh;
+    width: 80%;
   }
   
   .bottomInfo span{
-    font-family: poppin-Medium;
-    font-size: 2.8vh;
-    color: #ff0077;
+    font-size: 2.2vh;
   }
   
   .topSocialMediaComponent{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 84vh;
+    top: 61.5vh;
     left: 5vw;
   }
   
   .topSocialMediaInfo{
-    font-family: poppin-Light;
-    font-size: 3.2vh;
+    font-size: 2.4vh;
   }
   .topSocialMediaIconsContainer{
     padding-top: 1.8vh;
@@ -447,21 +433,19 @@ left: 0;
   .topSocialImageIcon{
     height: 4vh;
     width: 4vh;
-    padding-right: 2vw;
-    cursor: pointer;
-    transition: transform .4s;
+    padding-right: 4vw;
   }
   .topSocialImageIcon:hover{
-  
-   filter: grayscale(100%);
-   transform: scale(1.1); 
+   transform: scale(1); 
   }
   
   .showcaseImage{
-    position: absolute;
-    left:2vw;
-    height: 48vh;
-   top: 32.8vh;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55.5vh;
+   top: 75vh;
   }
   /* ----------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
   
