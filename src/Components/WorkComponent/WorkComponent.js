@@ -3,7 +3,6 @@ import '../WorkComponent/workComponent.css';
 import DashboardDesign from '../../Assets/DashboardDesign.png'
 import PlayerDesign from '../../Assets/PlayerDesign.png'
 import workforce from '../../Assets/workforce.png';
-import rate5 from '../../Assets/rate5.png';
 import f1 from '../../Assets/f1.JPG';
 import santa from '../../Assets/santa.JPG';
 import spotfind from '../../Assets/Spot-find.png';

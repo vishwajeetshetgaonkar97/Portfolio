@@ -1,15 +1,9 @@
 import React, {  useState } from 'react';
 import './App.css';
-import Work from './Components/Work/Work';
 import github from './Assets/github.png';
 import linkedin from './Assets/linkedin.png';
 import twitter from './Assets/twitter.png';
 import dribble from './Assets/dribbble.png';
-import workforce from './Assets/workforce.png';
-import rate5 from './Assets/rate5.png';
-import f1 from './Assets/f1.JPG';
-import santa from './Assets/santa.JPG';
-import spotfind from './Assets/Spot-find.png';
 import logo from './Assets/logo.png'
 import NavIndicator from './Assets/NavIndicator.png'
 import AnimatedCursor from "react-animated-cursor"
