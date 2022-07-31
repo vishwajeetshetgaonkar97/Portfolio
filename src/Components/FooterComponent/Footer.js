@@ -16,7 +16,7 @@ const Footer = ({downloadImage}) => {
 
 <a href="#about"><div className="FAbout">About</div></a>|
         <a href="#work"><div className="FWork">Work</div></a>|
-        <a href="">  <div className="FResume" onClick={downloadImage}>Resume</div> </a>
+        <a href="/">  <div className="FResume" onClick={downloadImage}>Resume</div> </a>
 </div>
 
 <div className="footerContactInfoLine" >
