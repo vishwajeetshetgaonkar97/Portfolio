@@ -115,7 +115,7 @@
 
 
   .footerContainer {
-    height: 59vh;
+    height: 58vh;
     width: 100%;
     padding-top: 0.5vh;
   }
@@ -141,7 +141,7 @@
   
   .footerRouteInfoLine{
     font-size: 2vh;
-    margin-top: 13vh;
+    margin-top: 12vh;
    
   }
 
@@ -163,7 +163,7 @@
   }
   .footerContactInfoLine a {
     padding-left: 0vw;
-    margin-top: 0.5vh;
+    margin-top: 0.4vh;
     font-size: 1.8vh;
 
   }
