@@ -107,3 +107,100 @@
   border-top: 1px solid #707070;
   margin-top:14vh;
 }
+
+
+/* ------------------------------------- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ------------------------------*/
+
+@media (max-width: 768px) {
+
+
+  .footerContainer {
+    height: 59vh;
+    width: 100%;
+    padding-top: 0.5vh;
+  }
+  
+  .footerTopLine{
+    text-align: center;
+    border: 0.2px solid #FF0513;
+    background-color: #FF0513;
+    margin-top: 2.5vh;
+    width: 0.05vw;
+    height: 11vh;
+    border-radius: 2vh;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footerLogo{
+    height: 7vh;
+  }
+  
+  .footerRouteInfoLine{
+    font-size: 2vh;
+    margin-top: 13vh;
+   
+  }
+
+  .FAbout,.FWork,.FResume{
+    padding: 0 2vw;
+    cursor: pointer;
+    transition: transform .4s;
+  }
+  .FAbout:hover,.FWork:hover,.FResume:hover{
+    transform: scale(1); 
+  }
+  .footerContactInfoLine{
+  text-align: center;
+    font-size: 1.7vh;
+    margin-top: 4vh;
+    padding-bottom: 5vh;
+    height: 2.8vh;
+    flex-direction: column;
+  }
+  .footerContactInfoLine a {
+    padding-left: 0vw;
+    margin-top: 0.5vh;
+    font-size: 1.8vh;
+
+  }
+  .footerContactInfoLine a:hover{
+    transform: scale(1); 
+   }
+  .Icons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+    height: 1vh;
+  }
+  .imgicon {
+    height: 4.5vh;
+    width: 4.5vh;
+    padding: 2vh;
+    cursor: pointer;
+    transition: transform .4s;
+  }
+  .imgicon:hover{
+    transform: scale(1.2); 
+    filter: grayscale(100%);
+  }
+  
+  .footerBottomCopyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppin-Regular;
+    font-size: 1.4vh;
+    padding-top: 2vh;
+    border-top: 1px solid #707070;
+    margin-top:9vh;
+    text-align: center;
+  }
+
+
+
+
+}
