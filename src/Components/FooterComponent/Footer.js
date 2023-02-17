@@ -20,7 +20,7 @@ const Footer = ({downloadImage}) => {
 </div>
 
 <div className="footerContactInfoLine" >
-IND / +91 8668524636 /   <a href="mailto:vshetgaonkar97@gmailcom" target="_blank" rel="noopener noreferrer">  <div >vshetgaonkar123@gmail.com</div> </a>
+CAD / +1 (416) 839-2270 /   <a href="mailto:vshetgaonkar97@gmailcom" target="_blank" rel="noopener noreferrer">  <div >vshetgaonkar123@gmail.com</div> </a>
 
 </div>
 

@@ -18,13 +18,14 @@ import CertificationAndApprotiation from './Components/CertificationAndApprotiat
 import Footer from './Components/FooterComponent/Footer';
 import WorkComponent from './Components/WorkComponent/WorkComponent';
 import Menu from './Assets/menu.png'
+import resume from '../src/Assets/Resume.pdf'
 import { saveAs } from 'file-saver'
 
 function App() {
 
   const downloadImage = () => {
     console.log("ingooo")
-    saveAs('https://i.postimg.cc/pXv5gdzs/Vishwajeet-Shetgaonkar-CV-page-0001.jpg', 'Vishwajeet Shetgaonkar Resume.jpg') 
+    saveAs(resume, 'Vishwajeet Shetgaonkar Resume.pdf') 
    handleDrawerClose()
   }
 
